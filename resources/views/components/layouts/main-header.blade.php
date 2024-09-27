@@ -8,9 +8,10 @@
 
     <flux:navbar class="mr-4 max-lg:hidden">
         <flux:navbar.item icon="home" href="#" current>Home</flux:navbar.item>
-        <flux:navbar.item icon="inbox" badge="12" href="#">QiGong</flux:navbar.item>
-        <flux:navbar.item icon="document-text" href="#">Documents</flux:navbar.item>
-        <flux:navbar.item icon="calendar" href="#">Calendar</flux:navbar.item>
+        <flux:navbar.item icon="inbox" badge="12" href="#">Kurse</flux:navbar.item>
+        <flux:navbar.item icon="document-text" href="#">Blog</flux:navbar.item>
+        <flux:navbar.item icon="calendar" href="#">Glossar</flux:navbar.item>
+        <flux:navbar.item icon="calendar" href="#">Kontakt</flux:navbar.item>
     </flux:navbar>
 
     <flux:dropdown position="top" align="start">

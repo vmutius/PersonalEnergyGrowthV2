@@ -82,7 +82,7 @@ export default {
 
         extend: {
             fontFamily: {
-                Ubuntu: ['Ubuntu', 'sans-serif'],
+                Quicksand: ['Quicksand', 'sans-serif'],
                 kaftan: ['Kaftan', 'serif'],
             },
         },

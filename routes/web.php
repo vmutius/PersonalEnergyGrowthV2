@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home.index')->name('index');
+Route::view('/aboutme', 'home.aboutme')->name('aboutme');
+Route::view('/contact', 'home.contact')->name('contact');
 
 Route::middleware([
     'auth:sanctum',

@@ -1,21 +1,15 @@
 [
     {
         "name": "QiGong",
-        "slug": "qigong",
-        "bg_color": "bg-fountain-blue-300",
-        "text_color": "text-rolling-stone-900"
+        "slug": "qigong"
     },
     {
         "name": "Energy",
-        "slug": "energy",
-        "bg_color": "bg-night-shadz-400",
-        "text_color": "text-rolling-stone-900"
+        "slug": "energy"
     },
     {
         "name": "Meditation",
-        "slug": "meditation",
-        "bg_color": "bg-fountain-blue-300",
-        "text_color": "text-rolling-stone-900"
+        "slug": "meditation"
     }
 
 ]

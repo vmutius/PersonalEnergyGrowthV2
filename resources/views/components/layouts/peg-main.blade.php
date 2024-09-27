@@ -14,8 +14,9 @@
 
 <body class="min-h-screen bg-white">
     @include('components.layouts.main-header')
-
-    {{ $slot }}
+    <flux:main container>
+        {{ $slot }}
+    </flux:main>
     @fluxScripts
 </body>
 
