@@ -7,11 +7,12 @@
     <flux:spacer />
 
     <flux:navbar class="mr-4 max-lg:hidden">
-        <flux:navbar.item icon="home" href="#" current>Home</flux:navbar.item>
-        <flux:navbar.item icon="inbox" badge="12" href="#">Kurse</flux:navbar.item>
-        <flux:navbar.item icon="document-text" href="#">Blog</flux:navbar.item>
-        <flux:navbar.item icon="calendar" href="#">Glossar</flux:navbar.item>
-        <flux:navbar.item icon="calendar" href="#">Kontakt</flux:navbar.item>
+        <flux:navbar.item icon="home" href="#" class="text-neutral-200">Home</flux:navbar.item>
+        <flux:navbar.item icon="academic-cap" badge="12" href="#" class="text-neutral-200">Kurse
+        </flux:navbar.item>
+        <flux:navbar.item icon="puzzle-piece" href="#" class="text-neutral-200">Blog</flux:navbar.item>
+        <flux:navbar.item icon="book-open" href="#" class="text-neutral-200">Glossar</flux:navbar.item>
+        <flux:navbar.item icon="at-symbol" href="#" class="text-neutral-200">Kontakt</flux:navbar.item>
     </flux:navbar>
 
     <flux:dropdown position="top" align="start">
@@ -38,10 +39,12 @@
 
 
     <flux:navlist variant="outline">
-        <flux:navlist.item icon="home" href="#" current>Home</flux:navlist.item>
-        <flux:navlist.item icon="inbox" badge="12" href="#">QiGong</flux:navlist.item>
-        <flux:navlist.item icon="document-text" href="#">Documents</flux:navlist.item>
-        <flux:navlist.item icon="calendar" href="#">Calendar</flux:navlist.item>
+        <flux:navbar.item icon="home" href="#">Home</flux:navbar.item>
+        <flux:navbar.item icon="academic-cap" badge="12" href="#">Kurse
+        </flux:navbar.item>
+        <flux:navbar.item icon="puzzle-piece" href="#">Blog</flux:navbar.item>
+        <flux:navbar.item icon="book-open" href="#">Glossar</flux:navbar.item>
+        <flux:navbar.item icon="at-symbol" href="#">Kontakt</flux:navbar.item>
     </flux:navlist>
 
     <flux:spacer />
