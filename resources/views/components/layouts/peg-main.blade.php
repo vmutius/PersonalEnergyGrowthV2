@@ -15,16 +15,7 @@
 <body class="min-h-screen bg-white">
     @include('components.layouts.main-header')
 
-    <flux:main container>
-
-        @include('components.layouts.hero')
-        <flux:heading size="xl" level="1">Test</flux:heading>
-
-        <flux:subheading size="lg" class="mb-6">Here's what's new today</flux:subheading>
-
-        <flux:separator variant="subtle" />
-    </flux:main>
-
+    {{ $slot }}
     @fluxScripts
 </body>
 
