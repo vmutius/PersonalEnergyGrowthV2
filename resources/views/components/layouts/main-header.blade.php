@@ -1,4 +1,4 @@
-<flux:header container class="bg-gradient-to-r from-primary-300 to-primary-800 shadow-md z-50 max-w-full">
+<flux:header container class="sticky top-0 bg-gradient-to-r from-primary-300 to-primary-800 shadow-md z-50 max-w-full">
     <flux:sidebar.toggle class="lg:hidden" icon="bars-2" inset="left" />
 
     <flux:brand href="#" logo="{{ asset('images/LogoPEG.png') }}" name="Personal Energy Growth"

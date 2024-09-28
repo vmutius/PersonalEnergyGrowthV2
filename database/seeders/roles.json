@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Guest"
+    },
+    
+    {
+        "name": "Member"
+    },
+    
+    {
+        "name": "Admin"
+    }
+]
