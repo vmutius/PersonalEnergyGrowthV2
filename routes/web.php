@@ -27,4 +27,7 @@ Route::middleware(['member', 'verified'])->group(function () {});
 
 Route::group(['middleware' => ['admin']], function () {
     Route::get('/admin/dashboard', [App\Http\Controllers\Admin\Dashboard::class, 'index'])->name('admin_dashboard');
+    Route::get('/admin/user', [App\Http\Controllers\Admin\User::class, 'index'])->name('admin_user');
+    Route::get('/admin/blogpost', [App\Http\Controllers\Admin\Blogpost::class, 'index'])->name('admin_blogpost');
+    Route::get('/admin/course', [App\Http\Controllers\Admin\Course::class, 'index'])->name('admin_course');
 });

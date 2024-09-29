@@ -7,10 +7,10 @@
     <flux:input as="button" variant="filled" placeholder="Search..." icon="magnifying-glass" />
 
     <flux:navlist variant="outline">
-        <flux:navlist.item icon="home" href="#" current>Home</flux:navlist.item>
-        <flux:navlist.item icon="inbox" badge="12" href="#">Inbox</flux:navlist.item>
-        <flux:navlist.item icon="document-text" href="#">Documents</flux:navlist.item>
-        <flux:navlist.item icon="calendar" href="#">Calendar</flux:navlist.item>
+        <flux:navlist.item icon="home" href="{{ route('admin_dashboard') }}" current>Dashboard</flux:navlist.item>
+        <flux:navlist.item icon="inbox" badge="12" href="{{ route('admin_user') }}">Benutzer</flux:navlist.item>
+        <flux:navlist.item icon="document-text" href="{{ route('admin_blogpost') }}">Blogposts</flux:navlist.item>
+        <flux:navlist.item icon="calendar" href="{{ route('admin_course') }}">Kurse</flux:navlist.item>
     </flux:navlist>
 
     <flux:spacer />
