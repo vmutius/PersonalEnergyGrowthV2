@@ -14,7 +14,7 @@
 
 <body class="min-h-screen bg-white bg-neutral-100">
     @include('components.layouts.user-header')
-    <flux:main container class="max-w-full">
+    <flux:main class="p-3">
         {{ $slot }}
     </flux:main>
     @fluxScripts

@@ -69,6 +69,15 @@ class User extends Authenticatable
         return $this->belongsTo(Role::class);
     }
 
+    public function getRedirectRoute(): string
+    {
+        return match ((int)$this->role_id) {
+            1 => route('user_dashboard'),
+            2 => route('user_dashboard'),
+            3 => route('admin_dashboard'),
+        };
+    }
+
     public function likes()
     {
         return $this->belongsToMany(Post::class, 'post_like')->withTimestamps();

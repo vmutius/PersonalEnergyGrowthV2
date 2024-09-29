@@ -17,11 +17,11 @@ Route::middleware('guest')->group(function () {
 });
 
 //TODO: TwoFactor später bei user, member und admin ergänzen.
-Route::middleware(['auth', 'verified'])->group(function () {});
-
-Route::middleware(['member', 'verified'])->group(function () {
-    Route::get('/glossar', [GlossaryController::class, 'index'])->name('glossar');
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/user/dashboard', [App\Http\Controllers\User\Dashboard::class, 'index'])->name('user_dashboard');
 });
+
+Route::middleware(['member', 'verified'])->group(function () {});
 
 
 
