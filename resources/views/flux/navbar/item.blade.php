@@ -20,7 +20,7 @@ $classes = Flux::classes()
     ->add('px-3 h-8 flex items-center rounded-lg')
     ->add('relative') // This is here for the "active" bar at the bottom to be positioned correctly...
     ->add($square ? '!px-2.5' : '')
-    ->add('text-zinc-500 dark:text-white/80 hover:text-zinc-800 hover:dark:text-white')
+    ->add('text-zinc-100 dark:text-white/80 hover:text-zinc-800 hover:dark:text-white')
     ->add('hover:bg-zinc-100 hover:dark:bg-white/10')
     // Styles for when this link is the "current" one...
     ->add(match ($variant) {

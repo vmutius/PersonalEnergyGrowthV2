@@ -12,7 +12,7 @@
     @fluxStyles
 </head>
 
-<body class="min-h-screen bg-white bg-neutral-100">
+<body class="min-h-screen bg-white bg-zinc-100">
     @include('components.layouts.admin-header')
 
     <flux:main class="p-3">

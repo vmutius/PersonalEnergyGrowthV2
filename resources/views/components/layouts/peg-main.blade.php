@@ -12,7 +12,7 @@
     @fluxStyles
 </head>
 
-<body class="min-h-screen bg-white bg-neutral-100">
+<body class="min-h-screen bg-white bg-zinc-100">
     @include('components.layouts.main-header')
     <flux:main container class="max-w-full">
         {{ $slot }}

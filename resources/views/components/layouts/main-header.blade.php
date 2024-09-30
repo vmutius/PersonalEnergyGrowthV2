@@ -1,4 +1,4 @@
-<flux:header container class="sticky top-0 bg-gradient-to-r from-primary-300 to-primary-800 shadow-md z-50 max-w-full">
+<flux:header container class="sticky top-0 bg-gradient-to-r from-primary-300 to-primary-800 shadow-md z-50 max-w-full px-4 py-3">
     <flux:sidebar.toggle class="lg:hidden" icon="bars-2" inset="left" />
 
     <flux:brand href="#" logo="{{ asset('images/LogoPEG.png') }}" name="Personal Energy Growth"
@@ -7,12 +7,12 @@
     <flux:spacer />
 
     <flux:navbar class="mr-4 max-lg:hidden">
-        <flux:navbar.item icon="home" href="#" class="text-neutral-200">Home</flux:navbar.item>
-        <flux:navbar.item icon="academic-cap" badge="12" href="#" class="text-neutral-200">Kurse
+        <flux:navbar.item icon="home" href="#" class="font-bold">Home</flux:navbar.item>
+        <flux:navbar.item icon="academic-cap" badge="12" href="#">Kurse
         </flux:navbar.item>
-        <flux:navbar.item icon="puzzle-piece" href="#" class="text-neutral-200">Blog</flux:navbar.item>
-        <flux:navbar.item icon="book-open" href="#" class="text-neutral-200">Glossar</flux:navbar.item>
-        <flux:navbar.item icon="at-symbol" href="#" class="text-neutral-200">Kontakt</flux:navbar.item>
+        <flux:navbar.item icon="puzzle-piece" href="#">Blog</flux:navbar.item>
+        <flux:navbar.item icon="book-open" href="#">Glossar</flux:navbar.item>
+        <flux:navbar.item icon="at-symbol" href="#">Kontakt</flux:navbar.item>
     </flux:navbar>
 
     <flux:dropdown position="top" align="start">

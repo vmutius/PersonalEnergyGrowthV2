@@ -18,7 +18,7 @@
         <?php endif; ?>
     </div>
 
-    <div class="text-lg text-neutral-900 font-medium truncate">{{ $name }}</div>
+    <div class="text-lg text-zinc-900 font-medium truncate">{{ $name }}</div>
 </a>
 <?php else: ?>
 <a href="{{ $href }}" {{ $attributes->class($classes) }} data-flux-brand>

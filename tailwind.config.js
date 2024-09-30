@@ -53,18 +53,18 @@ export default {
                 '800': '#6B1423',
                 '900': '#4F0B15',
                 '950': '#33050B'
-            },'neutral': {
-                '50': '#F7FAFA',
-                '100': '#EDF2F2',
-                '200': '#D7DFE0',
-                '300': '#BECACC',
-                '400': '#94A4A8',
-                '500': '#6c7d82',
-                '600': '#586D75',
-                '700': '#3C5561',
-                '800': '#28404F',
-                '900': '#162A3B',
-                '950': '#091826'
+            },'zinc': {
+                '50': '#FAFAFA',
+                '100': '#F4F4F5',
+                '200': '#E4E4E7',
+                '300': '#D4D4D8',
+                '400': '#A1A1AA',
+                '500': '#71717A',
+                '600': '#52525B',
+                '700': '#3F3F46',
+                '800': '#27272A',
+                '900': '#18181B',
+                '950': '#09090B'
             }, 'accents-yellow': {
                 '50': '#fef9e8',
                 '100': '#fef0c3',
@@ -77,15 +77,15 @@ export default {
                 '800': '#85680e',
                 '900': '#715a12',
                 '950': '#423306',
-            },
+            }, 
         },
 
-        extend: {
-            fontFamily: {
-                Quicksand: ['Quicksand', 'sans-serif'],
-                kaftan: ['Kaftan', 'serif'],
-            },
+    
+        fontFamily: {
+            Quicksand: ['Quicksand', 'sans-serif'],
+            kaftan: ['Kaftan', 'serif'],
         },
+        
     },
 
     plugins: [forms, typography],
