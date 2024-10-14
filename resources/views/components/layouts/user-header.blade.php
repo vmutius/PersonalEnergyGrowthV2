@@ -7,10 +7,10 @@
     <flux:input as="button" variant="filled" placeholder="Search..." icon="magnifying-glass" />
 
     <flux:navlist variant="outline">
-        <flux:navlist.item icon="home" href="#" current>Home</flux:navlist.item>
-        <flux:navlist.item icon="inbox" badge="12" href="#">Inbox</flux:navlist.item>
-        <flux:navlist.item icon="document-text" href="#">Documents</flux:navlist.item>
-        <flux:navlist.item icon="calendar" href="#">Calendar</flux:navlist.item>
+        <flux:navlist.item icon="home" href="#" class="text-zinc-700">Home</flux:navlist.item>
+        <flux:navlist.item icon="inbox" badge="12" href="#" class="text-zinc-700">Inbox</flux:navlist.item>
+        <flux:navlist.item icon="document-text" href="#" class="text-zinc-700">Documents</flux:navlist.item>
+        <flux:navlist.item icon="calendar" href="#" class="text-zinc-700">Calendar</flux:navlist.item>
     </flux:navlist>
 
     <flux:spacer />
@@ -41,9 +41,9 @@
     </flux:navbar>
 
     <flux:navbar class="mr-4">
-        <flux:navbar.item icon="magnifying-glass" href="#" label="Search" />
-        <flux:navbar.item class="max-lg:hidden" icon="cog-6-tooth" href="#" label="Settings" />
-        <flux:navbar.item class="max-lg:hidden" icon="information-circle" href="#" label="Help" />
+        <flux:navbar.item icon="magnifying-glass" href="#" class="text-zinc-700" label="Search" />
+        <flux:navbar.item class="max-lg:hidden" icon="cog-6-tooth" href="#" class="text-zinc-700" label="Settings" />
+        <flux:navbar.item class="max-lg:hidden" icon="information-circle" href="#" class="text-zinc-700" label="Help" />
     </flux:navbar>
 
     <flux:dropdown position="top" align="start">

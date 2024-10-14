@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Glossar extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'term',
+        'definition',
+    ];
+
+
 }

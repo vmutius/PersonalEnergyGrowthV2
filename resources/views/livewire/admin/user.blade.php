@@ -9,7 +9,7 @@
     <flux:rows>
         @foreach ($this->users as $user)
             <flux:row :key="$user->id">
-                <flux:cell class="flex items-center gap-3">{{ $user->name }}</flux:cell>
+                <flux:cell variant="strong" class="flex items-center gap-3">{{ $user->name }}</flux:cell>
                 <flux:cell>{{ $user->email }}</flux:cell>
                 <flux:cell class="whitespace-nowrap">{{ $user->created_at }}</flux:cell>
 

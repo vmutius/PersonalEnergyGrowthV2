@@ -7,11 +7,11 @@
     <flux:spacer />
 
     <flux:navbar class="mr-4 max-lg:hidden">
-        <flux:navbar.item icon="home" href="#" class="font-bold">Home</flux:navbar.item>
+        <flux:navbar.item icon="home" href="{{ route('index') }}" class="font-bold">Home</flux:navbar.item>
         <flux:navbar.item icon="academic-cap" badge="12" href="#">Kurse
         </flux:navbar.item>
-        <flux:navbar.item icon="puzzle-piece" href="#">Blog</flux:navbar.item>
-        <flux:navbar.item icon="book-open" href="#">Glossar</flux:navbar.item>
+        <flux:navbar.item icon="puzzle-piece" href="{{ route('post.index')}}">Blog</flux:navbar.item>
+        <flux:navbar.item icon="book-open" href="{{ route('glossar') }}">Glossar</flux:navbar.item>
         <flux:navbar.item icon="at-symbol" href="#">Kontakt</flux:navbar.item>
     </flux:navbar>
 
@@ -43,7 +43,7 @@
         <flux:navbar.item icon="academic-cap" badge="12" href="#">Kurse
         </flux:navbar.item>
         <flux:navbar.item icon="puzzle-piece" href="#">Blog</flux:navbar.item>
-        <flux:navbar.item icon="book-open" href="#">Glossar</flux:navbar.item>
+        <flux:navbar.item icon="book-open" href="{{ route('glossar') }}">Glossar</flux:navbar.item>
         <flux:navbar.item icon="at-symbol" href="#">Kontakt</flux:navbar.item>
     </flux:navlist>
 

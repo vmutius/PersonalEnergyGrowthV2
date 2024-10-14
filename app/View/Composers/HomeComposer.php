@@ -3,7 +3,7 @@
 namespace App\View\Composers;
 
 use App\Models\Post;
-use App\Models\Glossary;
+use App\Models\Glossar;
 
 use Illuminate\View\View;
 

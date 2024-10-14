@@ -2,17 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CommentController;
-use App\Http\Controllers\GlossaryController;
-use App\Http\Controllers\PostController;
+
 
 Route::middleware('guest')->group(function () {
     Route::view('/', 'home.index')->name('index');
     Route::view('/aboutme', 'home.aboutme')->name('aboutme');
     Route::view('/contact', 'home.contact')->name('contact');
 
-    Route::get('/glossar', [GlossaryController::class, 'index'])->name('glossar');
-    Route::get('/blog', [PostController::class, 'index'])->name('blog.index');
-    Route::get('/blog/{post:slug}', [PostController::class, 'show'])->name('blog.show');
+    Route::get('/glossar', App\Livewire\Glossar\Show::class)->name('glossar');
+    Route::get('/blog', App\Livewire\Post\Index::class)->name('post.index');
+    Route::get('/blog/{post:slug}', App\Livewire\Post\Show::class)->name('post.show');
     Route::resource('posts.comments', CommentController::class);
 });
 

@@ -4,8 +4,6 @@
     <flux:brand href="#" logo="{{ asset('images/LogoPEG.png') }}" name="Personal Energy Growth"
         class="max-lg:hidden dark:hidden" />
 
-    <flux:input as="button" variant="filled" placeholder="Search..." icon="magnifying-glass" />
-
     <flux:navlist variant="outline">
         <flux:navlist.item icon="home" href="{{ route('admin_dashboard') }}" class="text-zinc-700">Dashboard</flux:navlist.item>
         <flux:navlist.item icon="inbox" badge="12" href="{{ route('admin_user') }}" class="text-zinc-700">Benutzer</flux:navlist.item>
